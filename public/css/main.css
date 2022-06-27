@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+main {
+  background-color: hsl(30deg, 38%, 92%);
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 90% 10%;
+  justify-items: center;
+  align-items: center;
+}
+main .card {
+  width: 40%;
+  height: 400px;
+  background-color: hsl(228deg, 12%, 48%);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main .attribution {
+  font-family: "Montserrat", sans-serif;
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.details {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0px 10px 10px 0px;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 7% 34% 21% 16% 10%;
+  gap: 10px 0px;
+}
+.details .categorie {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: hsl(228deg, 12%, 48%);
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.details .title {
+  font-family: "Fraunces", serif, sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  color: hsl(212deg, 21%, 14%);
+}
+.details .description {
+  font-family: "Montserrat", serif, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(228deg, 12%, 48%);
+}
+.details .price {
+  font-family: "Fraunces", serif, sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  color: hsl(158deg, 36%, 37%);
+  display: flex;
+  align-items: center;
+}
+.details .price p {
+  margin-right: 25px;
+}
+.details .price span {
+  font-family: "Montserrat", serif, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(228deg, 12%, 48%);
+  text-decoration: line-through;
+}
+
+.cart {
+  width: 100%;
+}
+.cart button {
+  width: 100%;
+  background-color: hsl(158deg, 36%, 37%);
+  border: none;
+  color: hsl(0deg, 0%, 100%);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+.cart button img {
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=main.css.map */
